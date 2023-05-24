@@ -1,5 +1,5 @@
-import React from "react";
-import "./Title1.scss";
+import React from 'react';
+import './Title1.css';
 
 export default function Title1() {
     return (
