@@ -1,7 +1,7 @@
-import React from "react";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/themes/splide-default.min.css";
-import "./Splide.scss";
+import React from 'react';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import './Splide.css';
 
 const Splides = () => {
     return (
@@ -9,9 +9,9 @@ const Splides = () => {
             <Splide
                 options={{
                     rewind: true,
-                    gap: "1rem",
-                    autoplay: "playing",
-                    interval: 3000,
+                    gap: '1rem',
+                    autoplay: 'playing',
+                    interval: 3000
                 }}
                 aria-label="My Favorite Images"
             >
